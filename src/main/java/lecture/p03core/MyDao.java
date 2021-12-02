@@ -1,7 +1,7 @@
 package lecture.p03core;
 
 public class MyDao {
-	private void update() {
-
+	public void update() {
+		
 	}
 }

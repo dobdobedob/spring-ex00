@@ -4,9 +4,10 @@ import lombok.Setter;
 
 @Setter
 public class MyServlet {
-	private void doGet() {
+	private MyDao dao = new MyDao();
+
+	public void doGet() {
 		// 0. 사전작업
-		MyDao dao = new MyDao();
 		
 		// 2. request handle
 		
@@ -16,6 +17,5 @@ public class MyServlet {
 		// 4. add attribute
 		
 		// 5. forward / redirect
-		
 	}
 }
