@@ -7,7 +7,7 @@ import lombok.extern.log4j.Log4j;
 public class App {
 	public static void main(String[] args) {
 		Employee e1 = new Employee(3, "seoul", "korea");
-		
+
 		log.info(e1.toString());
 
 		log.debug(e1);
