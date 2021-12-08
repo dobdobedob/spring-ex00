@@ -104,6 +104,12 @@ public class Controller09 {
 		System.out.println(mapper.getEmployeeInfo()); // id, last name, first name 출력
 	}
 	
+	@RequestMapping("/met16")
+	public viod method16() {
+		List<Bean13> list = mapper.getEmployees();
+		
+	}
+	
 }
 
 
