@@ -3,15 +3,6 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-
-<mapper namesapce="org.zerock.mapper.p05mapper.TimeMapper">
-	<!-- namespace 속성 : 인터페이스 명 -->
-	
-
-</mapper>  
-
-
-
-
-
-
+<mapper namespace="org.zerock.mapper.p05mapper.Mapper01">
+	<!-- namespace 속성 : 인터페이스명 -->
+</mapper>
